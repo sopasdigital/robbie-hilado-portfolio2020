@@ -4,8 +4,6 @@ import reset from "./reset"
 import theme from "./theme"
 
 const GlobalStyle = createGlobalStyle`
-  @import url("https://fonts.googleapis.com/css?family=DM+Serif+Display:400,400i|Nanum+Gothic:400,700&display=swap&subset=latin-ext");
-  
   ${reset}
 
   html, body {
@@ -76,6 +74,7 @@ const GlobalStyle = createGlobalStyle`
     &:hover, &[aria-current] {
     color: ${theme.colors.blue.secondary};
     font-weight: 700;
+    cursor: pointer;
     }
 
     &[aria-current] {
