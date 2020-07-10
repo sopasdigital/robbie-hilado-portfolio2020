@@ -1,21 +1,63 @@
 import React from "react"
 import { Link } from "gatsby"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons"
+import Typed from "react-typed"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div
+      style={{
+        display: "flex",
+        alignItems: "center",
+        height: "100%",
+      }}
+    >
+      <div style={{ maxWidth: "650px" }}>
+        <h1>
+          Hello there! I'm Robbie. <br />I enjoy{" "}
+          <Typed
+            strings={[
+              "interaction design",
+              "front-end development",
+              "web design",
+              "user experience design",
+              "user interface design",
+              "illustration",
+              "calligraphy",
+            ]}
+            backDelay={2000}
+            typeSpeed={50}
+            backSpeed={30}
+            loop
+          />
+          .
+        </h1>
+
+        <p>
+          I'm an Interaction Designer and Front-end Developer from the
+          Philippines who is currently based in Porto, Portugal. I thrive in
+          creating pleasant experiences through digital media with a strong
+          focus on human-centered design. I also dabble in photography,
+          illustration and calligraphy.
+        </p>
+        <div
+          style={{
+            marginTop: "30px",
+            display: "flex",
+            color: "#00A5DF",
+            alignItems: "center",
+          }}
+        >
+          <Link to="/projects/">See my latest projects</Link>
+          <FontAwesomeIcon icon={faArrowRight} style={{ marginLeft: "10px" }} />
+        </div>
+      </div>
     </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
   </Layout>
 )
 
