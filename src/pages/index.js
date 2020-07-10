@@ -57,6 +57,7 @@ const IndexPage = () => (
             See my latest projects{" "}
             <FontAwesomeIcon
               icon={faArrowRight}
+              size="sm"
               style={{ marginLeft: "10px" }}
             />
           </Link>

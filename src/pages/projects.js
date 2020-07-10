@@ -97,6 +97,7 @@ const AboutPage = () => (
             View Project live
             <FontAwesomeIcon
               icon={faArrowRight}
+              size="sm"
               style={{ marginLeft: "10px" }}
             />
           </a>
@@ -222,6 +223,7 @@ const AboutPage = () => (
             View Project live
             <FontAwesomeIcon
               icon={faArrowRight}
+              size="sm"
               style={{ marginLeft: "10px" }}
             />
           </a>
@@ -267,6 +269,7 @@ const AboutPage = () => (
             View Project live
             <FontAwesomeIcon
               icon={faArrowRight}
+              size="sm"
               style={{ marginLeft: "10px" }}
             />
           </a>
