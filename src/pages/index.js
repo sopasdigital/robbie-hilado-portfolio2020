@@ -53,8 +53,13 @@ const IndexPage = () => (
             alignItems: "center",
           }}
         >
-          <Link to="/projects/">See my latest projects</Link>
-          <FontAwesomeIcon icon={faArrowRight} style={{ marginLeft: "10px" }} />
+          <Link to="/projects/">
+            See my latest projects{" "}
+            <FontAwesomeIcon
+              icon={faArrowRight}
+              style={{ marginLeft: "10px" }}
+            />
+          </Link>
         </div>
       </div>
     </div>
