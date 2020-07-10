@@ -17,7 +17,7 @@ const IndexPage = () => (
         height: "100%",
       }}
     >
-      <div style={{ maxWidth: "650px" }}>
+      <div style={{ maxWidth: "700px" }}>
         <h1>
           Hello there! I'm Robbie. <br />I enjoy{" "}
           <Typed
