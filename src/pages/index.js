@@ -2,10 +2,14 @@ import React from "react"
 import { Link } from "gatsby"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons"
+import { config } from "@fortawesome/fontawesome-svg-core"
+import "@fortawesome/fontawesome-svg-core/styles.css"
 import Typed from "react-typed"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+
+config.autoAddCss = false
 
 const IndexPage = () => (
   <Layout bgtext="Olá">
