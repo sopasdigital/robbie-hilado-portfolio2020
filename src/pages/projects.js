@@ -92,6 +92,7 @@ const AboutPage = () => (
             style={{ marginTop: "30px", display: "block" }}
             href="https://investingintheweb.com/"
             target="_blank"
+            rel="noreferrer"
           >
             View Project live
             <FontAwesomeIcon
@@ -216,6 +217,7 @@ const AboutPage = () => (
             style={{ marginTop: "30px", display: "block" }}
             href="https://lixomarinho.app/"
             target="_blank"
+            rel="noreferrer"
           >
             View Project live
             <FontAwesomeIcon
@@ -260,6 +262,7 @@ const AboutPage = () => (
             style={{ marginTop: "30px", display: "block" }}
             href="https://ardaacademy.com/"
             target="_blank"
+            rel="noreferrer"
           >
             View Project live
             <FontAwesomeIcon
