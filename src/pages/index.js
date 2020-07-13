@@ -14,13 +14,7 @@ config.autoAddCss = false
 const IndexPage = () => (
   <Layout bgtext="Olá">
     <SEO title="Home" />
-    <div
-      style={{
-        display: "flex",
-        alignItems: "center",
-        height: "100%",
-      }}
-    >
+    <div>
       <div style={{ maxWidth: "700px" }}>
         <h1>
           Hello there! I'm Robbie. <br />I enjoy{" "}

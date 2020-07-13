@@ -7,11 +7,15 @@ const Logo = styled.div`
 
 const Nav = styled.nav`
   width: 100%;
-  padding: 2rem;
-
+  padding-left: 30px;
   text-align: center;
 
   border-left: 1px solid ${({ theme }) => theme.colors.grey.light};
+
+  @media only screen and (max-width: 600px) {
+    border: none;
+    padding: 50px;
+  }
 `
 
 const NavDivider = styled.div`
@@ -23,7 +27,6 @@ const NavDivider = styled.div`
 
 const MenuWrapper = styled.div`
   flex: 1;
-  height: 100vh;
   display: flex;
   align-items: center;
 `

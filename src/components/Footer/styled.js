@@ -1,10 +1,8 @@
 import styled from "styled-components"
 
 const FooterContainer = styled.footer`
-  width: 100%;
-
-  position: fixed;
-  bottom: 0;
+  grid-column: start / end;
+  grid-row: 2 / 3;
 
   padding: 20px 0;
   text-align: center;
