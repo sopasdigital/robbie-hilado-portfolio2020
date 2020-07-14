@@ -16,7 +16,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <div>
       <div style={{ maxWidth: "700px" }}>
-        <h1>
+        <h1 className="typedText">
           Hello there! I'm Robbie. <br />I enjoy{" "}
           <Typed
             strings={[

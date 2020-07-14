@@ -7,8 +7,13 @@ const ContentBox = styled.div`
   overflow: auto;
 
   @media only screen and (max-width: 600px) {
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     max-height: none;
+    padding-right: 0;
+
+    .typedText {
+      height: 300px;
+    }
   }
 `
 
