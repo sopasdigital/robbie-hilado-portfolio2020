@@ -71,9 +71,11 @@ const CardBarWrapperToggleB = styled(CardBarWrapper)`
 
 const CardContentWrapper = styled.div`
   width: 70%;
+  padding-right: 50px;
 
   @media only screen and (max-width: 600px) {
     width: 100%;
+    padding-right: none;
   }
 `
 
