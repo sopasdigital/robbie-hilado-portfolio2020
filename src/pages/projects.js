@@ -118,85 +118,6 @@ const AboutPage = () => (
       <Card>
         <CardBarDesktop>
           <Title>Roles</Title>
-          <Text>Logo Design</Text>
-          <Text>Calligraphy</Text>
-        </CardBarDesktop>
-        <CardContent>
-          <h2 style={{ fontSize: "28px" }}>From Left to Write Calligraphy</h2>
-          <span
-            style={{
-              fontSize: "15px",
-              textTransform: "uppercase",
-              letterSpacing: ".7px",
-              marginBottom: "30px",
-              display: "block",
-              color: "#555",
-            }}
-          >
-            2019 · Personal Project
-          </span>
-          <CardBarMobile>
-            <Title>Roles</Title>
-            <Text>Logo Design</Text>
-            <Text>Calligraphy</Text>
-          </CardBarMobile>
-          <Text>
-            I've been practicing calligraphy for about 5 years now and I wanted
-            to create an online presence for myself using the skills I've gained
-            so far. I created a logo for my calligraphy instagram starting with
-            writing it out using brushpens and rendering it digitally using
-            Figma.
-          </Text>
-        </CardContent>
-      </Card>
-      <Card>
-        <CardBarDesktop>
-          <Title>Roles</Title>
-          <Text>Logo Design</Text>
-          <Text>Calligraphy</Text>
-        </CardBarDesktop>
-        <CardContent>
-          <h2 style={{ fontSize: "28px" }}>Personal Logo</h2>
-          <span
-            style={{
-              fontSize: "15px",
-              textTransform: "uppercase",
-              letterSpacing: ".7px",
-              marginBottom: "30px",
-              display: "block",
-              color: "#555",
-            }}
-          >
-            2019 · Personal Project
-          </span>
-          <CardBarMobile>
-            <Title>Roles</Title>
-            <Text>Logo Design</Text>
-            <Text>Calligraphy</Text>
-          </CardBarMobile>
-          <Text>
-            I've been using "sopasdigital" as my main online presence for quite
-            some time now. It's been increasingly difficult to make people
-            associate this presence with myself so I decided to veer away from
-            the old name and actually create a logomark that I could use with my
-            name. Since I wanted to also reflect a shift in direction of what
-            projects I was taking and were willing to take in the future, I
-            decided that this was the opportune moment to update my online
-            visual mark.
-          </Text>
-          <Text>
-            This logomark utilises my initials as the main reference for the
-            core stroke direction of the main line. I also wanted to make sure
-            that I keep the overall design to be flowing and adaptive, similar
-            to how I am when it comes to projects and problems. Another small
-            but fairly important note for me was to retain a certain asian feel
-            to my logomark as it's very much a part of my design roots.
-          </Text>
-        </CardContent>
-      </Card>
-      <Card>
-        <CardBarDesktop>
-          <Title>Roles</Title>
           <Text>Web Development</Text>
           <Text>Mobile Web Design</Text>
           <Text>User Interface Design</Text>
@@ -297,6 +218,98 @@ const AboutPage = () => (
               style={{ marginLeft: "10px" }}
             />
           </a>
+        </CardContent>
+      </Card>
+      <Card>
+        <CardBarDesktop>
+          <Title>Roles</Title>
+          <Text>Logo Design</Text>
+          <Text>Calligraphy</Text>
+        </CardBarDesktop>
+        <CardContent>
+          <h2 style={{ fontSize: "28px" }}>From Left to Write Calligraphy</h2>
+          <span
+            style={{
+              fontSize: "15px",
+              textTransform: "uppercase",
+              letterSpacing: ".7px",
+              marginBottom: "30px",
+              display: "block",
+              color: "#555",
+            }}
+          >
+            2019 · Personal Project
+          </span>
+          <CardBarMobile>
+            <Title>Roles</Title>
+            <Text>Logo Design</Text>
+            <Text>Calligraphy</Text>
+          </CardBarMobile>
+          <Text>
+            I've been practicing calligraphy for about 5 years now and I wanted
+            to create an online presence for myself using the skills I've gained
+            so far. I created a logo for my calligraphy instagram starting with
+            writing it out using brushpens and rendering it digitally using
+            Figma.
+          </Text>
+          <a
+            style={{ marginTop: "30px", display: "block" }}
+            href="https://www.instagram.com/fromlefttowritecal.li/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            View my Instagram
+            <FontAwesomeIcon
+              icon={faArrowRight}
+              size="sm"
+              style={{ marginLeft: "10px" }}
+            />
+          </a>
+        </CardContent>
+      </Card>
+      <Card>
+        <CardBarDesktop>
+          <Title>Roles</Title>
+          <Text>Logo Design</Text>
+          <Text>Calligraphy</Text>
+        </CardBarDesktop>
+        <CardContent>
+          <h2 style={{ fontSize: "28px" }}>Personal Logo</h2>
+          <span
+            style={{
+              fontSize: "15px",
+              textTransform: "uppercase",
+              letterSpacing: ".7px",
+              marginBottom: "30px",
+              display: "block",
+              color: "#555",
+            }}
+          >
+            2019 · Personal Project
+          </span>
+          <CardBarMobile>
+            <Title>Roles</Title>
+            <Text>Logo Design</Text>
+            <Text>Calligraphy</Text>
+          </CardBarMobile>
+          <Text>
+            I've been using "sopasdigital" as my main online presence for quite
+            some time now. It's been increasingly difficult to make people
+            associate this presence with myself so I decided to veer away from
+            the old name and actually create a logomark that I could use with my
+            name. Since I wanted to also reflect a shift in direction of what
+            projects I was taking and were willing to take in the future, I
+            decided that this was the opportune moment to update my online
+            visual mark.
+          </Text>
+          <Text>
+            This logomark utilises my initials as the main reference for the
+            core stroke direction of the main line. I also wanted to make sure
+            that I keep the overall design to be flowing and adaptive, similar
+            to how I am when it comes to projects and problems. Another small
+            but fairly important note for me was to retain a certain asian feel
+            to my logomark as it's very much a part of my design roots.
+          </Text>
         </CardContent>
       </Card>
     </div>

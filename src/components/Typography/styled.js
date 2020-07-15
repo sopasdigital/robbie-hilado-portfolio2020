@@ -13,7 +13,7 @@ const Display = styled.h1`
 const CategoryHeading = styled.h6`
   position: relative;
   left: 40px;
-  display: inline-block;
+  max-width: 200px;
 
   margin-bottom: 10px;
 

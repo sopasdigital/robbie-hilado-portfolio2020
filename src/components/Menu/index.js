@@ -69,7 +69,7 @@ const Menu = () => (
           </a>
         </li>
         <li>
-          <a href="instagram.com/fromlefttowritecal.li">
+          <a href="https://www.instagram.com/fromlefttowritecal.li/">
             <FontAwesomeIcon icon={["fab", "instagram"]} />
           </a>
         </li>
