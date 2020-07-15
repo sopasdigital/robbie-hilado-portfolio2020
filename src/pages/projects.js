@@ -5,6 +5,12 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { CategoryHeading, Display, Text, Title } from "../components/Typography"
+import {
+  Card,
+  CardBarDesktop,
+  CardBarMobile,
+  CardContent,
+} from "../components/Card"
 
 const AboutPage = () => (
   <Layout bgtext="Projects">
@@ -46,18 +52,16 @@ const AboutPage = () => (
           </Text>
         </div>
       </div>
-      <div style={{ display: "flex", marginBottom: "80px" }}>
-        <div style={{ width: "30%", paddingRight: "50px", marginTop: "20px" }}>
-          <div style={{ marginBottom: "50px" }}>
-            <Title>Roles</Title>
-            <Text>Illustration</Text>
-            <Text>Icon Development</Text>
-            <Text>User Experience Design</Text>
-            <Text>Copywriter &amp; Editor</Text>
-            <Text>Front-end Consultant</Text>
-          </div>
-        </div>
-        <div style={{ width: "70%" }}>
+      <Card>
+        <CardBarDesktop>
+          <Title>Roles</Title>
+          <Text>Illustration</Text>
+          <Text>Icon Development</Text>
+          <Text>User Experience Design</Text>
+          <Text>Copywriter &amp; Editor</Text>
+          <Text>Front-end Consultant</Text>
+        </CardBarDesktop>
+        <CardContent>
           <h2 style={{ fontSize: "28px" }}>Investing in the Web</h2>
           <span
             style={{
@@ -71,6 +75,14 @@ const AboutPage = () => (
           >
             2020 · Freelance
           </span>
+          <CardBarMobile>
+            <Title>Roles</Title>
+            <Text>Illustration</Text>
+            <Text>Icon Development</Text>
+            <Text>User Experience Design</Text>
+            <Text>Copywriter &amp; Editor</Text>
+            <Text>Front-end Consultant</Text>
+          </CardBarMobile>
           <Text>
             I was brought into the project to help update the site's core visual
             footprint and online presence. The initial website was built in a
@@ -101,17 +113,15 @@ const AboutPage = () => (
               style={{ marginLeft: "10px" }}
             />
           </a>
-        </div>
-      </div>
-      <div style={{ display: "flex", marginBottom: "80px" }}>
-        <div style={{ width: "30%", paddingRight: "50px", marginTop: "20px" }}>
-          <div style={{ marginBottom: "50px" }}>
-            <Title>Roles</Title>
-            <Text>Logo Design</Text>
-            <Text>Calligraphy</Text>
-          </div>
-        </div>
-        <div style={{ width: "70%" }}>
+        </CardContent>
+      </Card>
+      <Card>
+        <CardBarDesktop>
+          <Title>Roles</Title>
+          <Text>Logo Design</Text>
+          <Text>Calligraphy</Text>
+        </CardBarDesktop>
+        <CardContent>
           <h2 style={{ fontSize: "28px" }}>From Left to Write Calligraphy</h2>
           <span
             style={{
@@ -125,6 +135,11 @@ const AboutPage = () => (
           >
             2019 · Personal Project
           </span>
+          <CardBarMobile>
+            <Title>Roles</Title>
+            <Text>Logo Design</Text>
+            <Text>Calligraphy</Text>
+          </CardBarMobile>
           <Text>
             I've been practicing calligraphy for about 5 years now and I wanted
             to create an online presence for myself using the skills I've gained
@@ -132,17 +147,15 @@ const AboutPage = () => (
             writing it out using brushpens and rendering it digitally using
             Figma.
           </Text>
-        </div>
-      </div>
-      <div style={{ display: "flex", marginBottom: "80px" }}>
-        <div style={{ width: "30%", paddingRight: "50px", marginTop: "20px" }}>
-          <div style={{ marginBottom: "50px" }}>
-            <Title>Roles</Title>
-            <Text>Logo Design</Text>
-            <Text>Calligraphy</Text>
-          </div>
-        </div>
-        <div style={{ width: "70%" }}>
+        </CardContent>
+      </Card>
+      <Card>
+        <CardBarDesktop>
+          <Title>Roles</Title>
+          <Text>Logo Design</Text>
+          <Text>Calligraphy</Text>
+        </CardBarDesktop>
+        <CardContent>
           <h2 style={{ fontSize: "28px" }}>Personal Logo</h2>
           <span
             style={{
@@ -156,6 +169,11 @@ const AboutPage = () => (
           >
             2019 · Personal Project
           </span>
+          <CardBarMobile>
+            <Title>Roles</Title>
+            <Text>Logo Design</Text>
+            <Text>Calligraphy</Text>
+          </CardBarMobile>
           <Text>
             I've been using "sopasdigital" as my main online presence for quite
             some time now. It's been increasingly difficult to make people
@@ -174,18 +192,16 @@ const AboutPage = () => (
             but fairly important note for me was to retain a certain asian feel
             to my logomark as it's very much a part of my design roots.
           </Text>
-        </div>
-      </div>
-      <div style={{ display: "flex", marginBottom: "80px" }}>
-        <div style={{ width: "30%", paddingRight: "50px", marginTop: "20px" }}>
-          <div style={{ marginBottom: "50px" }}>
-            <Title>Roles</Title>
-            <Text>Web Development</Text>
-            <Text>Mobile Web Design</Text>
-            <Text>User Interface Design</Text>
-          </div>
-        </div>
-        <div style={{ width: "70%" }}>
+        </CardContent>
+      </Card>
+      <Card>
+        <CardBarDesktop>
+          <Title>Roles</Title>
+          <Text>Web Development</Text>
+          <Text>Mobile Web Design</Text>
+          <Text>User Interface Design</Text>
+        </CardBarDesktop>
+        <CardContent>
           <h2 style={{ fontSize: "28px" }}>Lixo Marinho</h2>
           <span
             style={{
@@ -199,6 +215,12 @@ const AboutPage = () => (
           >
             2019 · Significa
           </span>
+          <CardBarMobile>
+            <Title>Roles</Title>
+            <Text>Web Development</Text>
+            <Text>Mobile Web Design</Text>
+            <Text>User Interface Design</Text>
+          </CardBarMobile>
           <Text>
             This was my first project while I was under Signfica. I was able to
             learn more about more current web development practices while
@@ -227,16 +249,14 @@ const AboutPage = () => (
               style={{ marginLeft: "10px" }}
             />
           </a>
-        </div>
-      </div>
-      <div style={{ display: "flex", marginBottom: "80px" }}>
-        <div style={{ width: "30%", paddingRight: "50px", marginTop: "20px" }}>
-          <div style={{ marginBottom: "50px" }}>
-            <Title>Roles</Title>
-            <Text>Web Development</Text>
-          </div>
-        </div>
-        <div style={{ width: "70%" }}>
+        </CardContent>
+      </Card>
+      <Card>
+        <CardBarDesktop>
+          <Title>Roles</Title>
+          <Text>Web Development</Text>
+        </CardBarDesktop>
+        <CardContent>
           <h2 style={{ fontSize: "28px" }}>Arda Academy</h2>
           <span
             style={{
@@ -250,6 +270,10 @@ const AboutPage = () => (
           >
             2019 · Significa
           </span>
+          <CardBarMobile>
+            <Title>Roles</Title>
+            <Text>Web Development</Text>
+          </CardBarMobile>
           <Text>
             This was my second project in Signfica wherein I was given a larger
             chunk of development responsibility. It was a fun experience
@@ -273,8 +297,8 @@ const AboutPage = () => (
               style={{ marginLeft: "10px" }}
             />
           </a>
-        </div>
-      </div>
+        </CardContent>
+      </Card>
     </div>
   </Layout>
 )
