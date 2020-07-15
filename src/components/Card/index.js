@@ -6,9 +6,14 @@ import {
   CardBarWrapperToggleA,
   CardBarWrapperToggleB,
   CardContentWrapper,
+  CardWrapperReverse,
 } from "./styled"
 
 const Card = ({ children }) => <CardWrapper>{children}</CardWrapper>
+
+const CardSwitched = ({ children }) => (
+  <CardWrapperReverse>{children}</CardWrapperReverse>
+)
 
 const CardBar = ({ children }) => <CardBarWrapper>{children}</CardBarWrapper>
 
@@ -24,4 +29,11 @@ const CardContent = ({ children }) => (
   <CardContentWrapper>{children}</CardContentWrapper>
 )
 
-export { Card, CardBar, CardBarDesktop, CardBarMobile, CardContent }
+export {
+  Card,
+  CardBar,
+  CardBarDesktop,
+  CardBarMobile,
+  CardContent,
+  CardSwitched,
+}

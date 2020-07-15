@@ -3,6 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { CategoryHeading, Display, Text, Title } from "../components/Typography"
+import { CardSwitched, CardBar, CardContent } from "../components/Card"
 
 const AboutPage = () => (
   <Layout bgtext="About">
@@ -52,8 +53,8 @@ const AboutPage = () => (
           </Text>
         </div>
       </div>
-      <div style={{ display: "flex" }}>
-        <div style={{ width: "30%", paddingRight: "50px" }}>
+      <CardSwitched>
+        <CardBar>
           <div style={{ marginBottom: "50px" }}>
             <Title>Core Strengths</Title>
             <Text>Interaction Design</Text>
@@ -91,9 +92,9 @@ const AboutPage = () => (
             <Text>Typescript</Text>
             <Text>WebGL</Text>
           </div>
-        </div>
-        <div style={{ width: "60%" }}>
-          <h2 style={{ fontSize: "28px" }}>Best of Both Worlds</h2>
+        </CardBar>
+        <CardContent>
+          <h2>Best of Both Worlds</h2>
           <Text style={{ marginBottom: "50px" }}>
             I was fortunate enough to have been exposed and trained for both
             design and development. I've utilised these skills to help create
@@ -102,9 +103,7 @@ const AboutPage = () => (
             more efficient process of figuring what works and what doesn't for
             our current goal at hand.
           </Text>
-          <h2 style={{ fontSize: "28px" }}>
-            Iterative and Human-Centered Approach
-          </h2>
+          <h2>Iterative and Human-Centered Approach</h2>
           <Text style={{ marginBottom: "50px" }}>
             Ever since being exposed to research, design sprints and design
             thinking, I've absorbed much of their processes and have
@@ -112,7 +111,7 @@ const AboutPage = () => (
             iteration and testing is the cornerstone of delivering a
             well-rounded product or project.
           </Text>
-          <h2 style={{ fontSize: "28px" }}>Involved &amp; Feedback Driven</h2>
+          <h2>Involved &amp; Feedback Driven</h2>
           <Text style={{ marginBottom: "50px" }}>
             This philosophy of design has greatly improved how I go about
             helping clients achieve their goals. I get quite picky with my
@@ -122,9 +121,7 @@ const AboutPage = () => (
             suggestions and improvements to their proposals, there's no other
             way for the project to go but up.
           </Text>
-          <h2 style={{ fontSize: "28px" }}>
-            Sounds Like a Fit for Your Team or Project?
-          </h2>
+          <h2>Sounds Like a Fit for Your Team or Project?</h2>
           <Text style={{ marginBottom: "50px" }}>
             If you’re curious as to how I work and would like collaborate, pitch
             a project, know more about my process working with clients, or even
@@ -133,8 +130,8 @@ const AboutPage = () => (
             <a href="mailto:robbie.hilado@gmail.com">robbie.hilado@gmail.com</a>
             .
           </Text>
-        </div>
-      </div>
+        </CardContent>
+      </CardSwitched>
     </div>
   </Layout>
 )
