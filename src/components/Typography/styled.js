@@ -56,4 +56,8 @@ const Text = styled.p`
   line-height: 22px;
 `
 
-export { CategoryHeading, Display, Text, Title }
+const ProjectTitle = styled.h2`
+  margin-bottom: 0;
+`
+
+export { CategoryHeading, Display, Text, Title, ProjectTitle }

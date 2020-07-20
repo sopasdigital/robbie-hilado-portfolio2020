@@ -4,7 +4,13 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { CategoryHeading, Display, Text, Title } from "../components/Typography"
+import {
+  CategoryHeading,
+  Display,
+  Text,
+  Title,
+  ProjectTitle,
+} from "../components/Typography"
 import {
   Card,
   CardBarDesktop,
@@ -62,7 +68,7 @@ const AboutPage = () => (
           <Text>Front-end Consultant</Text>
         </CardBarDesktop>
         <CardContent>
-          <h2 style={{ fontSize: "28px" }}>Investing in the Web</h2>
+          <ProjectTitle>Investing in the Web</ProjectTitle>
           <span
             style={{
               fontSize: "15px",
@@ -123,7 +129,7 @@ const AboutPage = () => (
           <Text>User Interface Design</Text>
         </CardBarDesktop>
         <CardContent>
-          <h2 style={{ fontSize: "28px" }}>Lixo Marinho</h2>
+          <ProjectTitle>Lixo Marinho</ProjectTitle>
           <span
             style={{
               fontSize: "15px",
@@ -178,7 +184,7 @@ const AboutPage = () => (
           <Text>Web Development</Text>
         </CardBarDesktop>
         <CardContent>
-          <h2 style={{ fontSize: "28px" }}>Arda Academy</h2>
+          <ProjectTitle>Arda Academy</ProjectTitle>
           <span
             style={{
               fontSize: "15px",
@@ -227,7 +233,7 @@ const AboutPage = () => (
           <Text>Calligraphy</Text>
         </CardBarDesktop>
         <CardContent>
-          <h2 style={{ fontSize: "28px" }}>From Left to Write Calligraphy</h2>
+          <ProjectTitle>From Left to Write Calligraphy</ProjectTitle>
           <span
             style={{
               fontSize: "15px",
@@ -274,7 +280,7 @@ const AboutPage = () => (
           <Text>Calligraphy</Text>
         </CardBarDesktop>
         <CardContent>
-          <h2 style={{ fontSize: "28px" }}>Personal Logo</h2>
+          <ProjectTitle>Personal Logo</ProjectTitle>
           <span
             style={{
               fontSize: "15px",

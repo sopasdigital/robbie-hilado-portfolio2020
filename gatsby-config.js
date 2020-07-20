@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Robbie Hilado - Interaction Designer, Front-End Developer, Illustrator and Calligraphy Enthusiast`,
-    description: `Robbie Hilado is a Interaction Designer and Front-End Web Developer from the Philippines currently based in Porto, Portugal. Want to collaborate? He'd more than love to grab a coffee.`,
+    description: `Robbie Hilado is a Interaction Designer and Front-End Web Developer from the Philippines currently based in Porto, Portugal. Want to collaborate? I'd more than love to grab a coffee. Get in touch with me!`,
     author: `@sopasdigital`,
   },
   plugins: [
