@@ -268,7 +268,7 @@ const AboutPage = () => (
             target="_blank"
             rel="noreferrer"
           >
-            View client's website
+            View Client's website
             <FontAwesomeIcon
               icon={faArrowRight}
               size="sm"
