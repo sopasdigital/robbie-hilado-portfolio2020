@@ -229,6 +229,57 @@ const AboutPage = () => (
       <Card>
         <CardBarDesktop>
           <Title>Roles</Title>
+          <Text>User Research</Text>
+          <Text>User Experience Design</Text>
+          <Text>User Interface Design</Text>
+        </CardBarDesktop>
+        <CardContent>
+          <ProjectTitle>YouBeep User Experience Study</ProjectTitle>
+          <span
+            style={{
+              fontSize: "15px",
+              textTransform: "uppercase",
+              letterSpacing: ".7px",
+              marginBottom: "30px",
+              display: "block",
+              color: "#555",
+            }}
+          >
+            2018 · The New Digital School · Project
+          </span>
+          <CardBarMobile>
+            <Title>Roles</Title>
+            <Text>User Interface Design</Text>
+            <Text>Motion Design</Text>
+            <Text>Web Development</Text>
+          </CardBarMobile>
+          <Text>
+            During my stay at The New Digital School, I was able to work on
+            projects with actual clients and one of them was YouBeep. We were
+            tasked to assess how user-friendly the current flow was and give
+            suggestions on how to tweak the app and overall check-in and
+            check-out experience. Information on the project is highly sensitive
+            and private but I can discuss certain contributions and processes
+            in-person or upon request.
+          </Text>
+          <a
+            style={{ marginTop: "30px", display: "block" }}
+            href="https://www.adhocdigital.agency/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            View client's website
+            <FontAwesomeIcon
+              icon={faArrowRight}
+              size="sm"
+              style={{ marginLeft: "10px" }}
+            />
+          </a>
+        </CardContent>
+      </Card>
+      <Card>
+        <CardBarDesktop>
+          <Title>Roles</Title>
           <Text>User Interface Design</Text>
           <Text>Motion Design</Text>
           <Text>Web Development</Text>
