@@ -229,6 +229,57 @@ const AboutPage = () => (
       <Card>
         <CardBarDesktop>
           <Title>Roles</Title>
+          <Text>User Interface Design</Text>
+          <Text>Motion Design</Text>
+          <Text>Web Development</Text>
+        </CardBarDesktop>
+        <CardContent>
+          <ProjectTitle>Adhoc Digital</ProjectTitle>
+          <span
+            style={{
+              fontSize: "15px",
+              textTransform: "uppercase",
+              letterSpacing: ".7px",
+              marginBottom: "30px",
+              display: "block",
+              color: "#555",
+            }}
+          >
+            2018 · MessyPH
+          </span>
+          <CardBarMobile>
+            <Title>Roles</Title>
+            <Text>User Interface Design</Text>
+            <Text>Motion Design</Text>
+            <Text>Web Development</Text>
+          </CardBarMobile>
+          <Text>
+            Adhoc Digital Agency was our partner company for our client's
+            marketing needs. We created an online presence that would reflect
+            their capabilities and strengths. One key aspect that was requested
+            was to have animations present in the site that gave a lot of
+            character but did not take away from the content. My role was to
+            apply enough motion the the beautiful illustrations we had and to
+            implement them on both mobile and web for WordPress.
+          </Text>
+          <a
+            style={{ marginTop: "30px", display: "block" }}
+            href="https://www.adhocdigital.agency/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            View Project live
+            <FontAwesomeIcon
+              icon={faArrowRight}
+              size="sm"
+              style={{ marginLeft: "10px" }}
+            />
+          </a>
+        </CardContent>
+      </Card>
+      <Card>
+        <CardBarDesktop>
+          <Title>Roles</Title>
           <Text>Logo Design</Text>
           <Text>Calligraphy</Text>
         </CardBarDesktop>
