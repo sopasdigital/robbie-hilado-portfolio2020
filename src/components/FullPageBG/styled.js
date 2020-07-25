@@ -17,6 +17,11 @@ const BGText = styled.p`
   bottom: 4rem;
   left: 0;
   color: #eee;
+
+  @media only screen and (max-width: 600px) {
+    font-size: 6rem;
+    bottom: 0.5rem;
+  }
 `
 
 export { BGContainer, BGText }
