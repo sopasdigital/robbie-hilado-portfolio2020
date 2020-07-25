@@ -29,6 +29,11 @@ const MenuWrapper = styled.div`
   flex: 1;
   display: flex;
   align-items: center;
+  margin-top: 10vh;
+
+  @media only screen and (max-width: 600px) {
+    margin-top: none;
+  }
 `
 
 const SiteLinks = styled.ul`
